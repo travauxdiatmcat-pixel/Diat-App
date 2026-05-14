@@ -22,7 +22,7 @@ for d in [BASE_DIR / "data", IMG_DIR]:
 
 # Mot de passe par défaut : 123  (changez le hash pour un vrai mot de passe)
 # python3 -c "import hashlib; print(hashlib.sha256(b'VotreMotDePasse').hexdigest())"
-MDP_HASH = "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+MDP_HASH = "fbb76d992f06eb7b508f384982031656c9917a21279a8616e9033eb58d4dacf0"
 
 STATUTS  = ["Non démarré", "En cours", "Terminé", "Suspendu"]
 ETATS    = ["Bon", "Moyen", "Mauvais"]
